@@ -1,0 +1,18 @@
+{
+   "type": "postgres",
+   "host": "localhost",
+   "port": 5432,
+   "username": "postgres",
+   "password": "23Mussonguita@25",
+   "database": "stor",
+   "synchronize": false,
+   "entities": [
+      "src/models/*.ts"
+   ],
+   "migrations": [
+      "src/database/migrations/*.ts"
+   ],
+   "cli": {
+      "migrationsDir": "src/database/migrations"
+   }
+}
